@@ -13,9 +13,14 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-
+/**
+ * The main game "Loop", called first when the script is loaded
+ * And after when an answer has been inputted.
+ */
 function runGame() {
-
+    // Two random numbers between 1 and 25
+let num1 = Math.floor(Math.random() * 25) +1;
+let num2 = Math.floor(Math.random() * 25) +1;
 }
 
 function checkAnswer() {
